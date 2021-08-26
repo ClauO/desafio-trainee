@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="carousel.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <img src="./images/SeekPng.com_destiny-hunter-logo-png_3429003.png" alt="" class="logo">
+    <h1>Hunter X Hunter</h1>
+  </header>
+  <nav>
+    <ul class="nav-list">
+      <li class="nav-item">
+        <a class="nav-link" href="#resumen">Resumen</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#characters">Personajes</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#movies">Películas</a>
+      </li>
+    </ul>
+  </nav>
+
+  <main>
+    <div class="carousel-wrapper">
+      <div class="carousel">
+        <img class="carousel__photo initial" src="./images/inicio.jpg">
+        <img class="carousel__photo" src="./images/arcos.jpeg">
+        <img class="carousel__photo" src="./images/image1.jpg">
+        <img class="carousel__photo" src="./images/end.png">
+        <div class="carousel__button--next"></div>
+        <div class="carousel__button--prev"></div>
+      </div>
+    </div>
+    <h1 id="resumen">Resumen</h1>
+    <section class="resumen-container"> 
+      <p>Riquezas abundantes, tesoros escondidos, terroríficos monstruos y criaturas exóticas pueden encontrarse dispersos por todo el mundo... Gon parte en un viaje para convertirse en un cazador profesional que arriesgue su vida en busca de lo desconocido. En el camino conocerá a otros aspirantes a cazador como él: Kurapika, Leorio y Killua. ¿Podrá Gon superar los rigurosos requisitos del examen y convertirse en el mejor cazador del mundo? ¡Su épico viaje está por comenzar!</p>
+      <div class="video-responsive">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/faqmNf_fZlE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </section>
+    <section>
+      <h1 id="characters">Personajes Principales</h1>
+      <div  class="character-container">
+        <div class="character-info">
+          <div class="char-name">
+            <h3>Gon Freecss</h3>
+            <img src="./images/gon.png" alt="" class="character">
+          </div>
+          <p>Protagonista de la serie de manga y anime. Está en búsqueda de su padre, el famoso cazador Ging Freecss.</p>
+        </div>
+        <div class="character-info">
+          <div class="char-name">
+            <h3>Kurapika</h3>
+            <img src="./images/kurapika.png" alt="" class="character">
+          </div>
+          <p>Uno de los cuatro protagonistas principales de la serie Hunter x Hunter. Busca venganza por su sangriento pasado. Sus ojos brillan en un hermoso y codiciado escarlata al experimentar emociones intensas.</p>
+        </div>
+        <div class="character-info">
+          <div class="char-name">
+            <h3>Leorio</h3>
+            <img src="./images/leorio.png" alt="" class="character">
+          </div>
+          <p>Cazador novato y actualmente es estudiante de medicina, así como un miembro de los zodiacos con el nombre en clave "jabalí". Él es parte de la División de Ciencia, creada en preparación para el viaje al Continente Oscuro.</p>
+        </div>
+        <div class="character-info">
+          <div class="char-name">
+            <h3>Killua Zoldyck</h3>
+            <img src="./images/killua.png" alt="" class="character">
+          </div>
+          <p>Es el co-protagonista y el mejor amigo de Gon Freecss. Es el tercero de los cinco hijos de la familia Zoldyck.</p>
+        </div>
+        <div class="character-info">
+          <div class="char-name">
+            <h3>Hisoka</h3>
+            <img src="./images/hisoka.png" alt="" class="character">
+          </div>
+          <p>Cazador y antiguo miembro de la Brigada Fantasma. Él siempre está en busca de oponentes fuertes, y perdonará a los que tienen un gran potencial, como Gon y Killua para que sean lo suficientemente fuertes como para realmente desafiarlo. Fecha estreno: marzo de 2012</p>
+        </div>
+      </div>
+    </section>
+    <h1 id="movies">Películas</h1>
+    <section class="movie-container">
+      <div class="movie-info">
+        <div class="movie-name">
+          <h2>Hunter × Hunter: Phantom Rouge </h2>
+          <img src="./images/phantom.jpg" alt="" class="img-movie">
+        </div>
+          <p>Con una producción a cargo del estudio Madhouse y con la compañía japonesa Tōhō se encargó de su distribución. La historia se enfoca en los esfuerzos de Gon y sus amigos para recuperar los ojos escarlata de Kurapika, que fueron robados por Omokage, un miembro de Gen'ei Ryodan.</p>
+      </div>
+      <div class="movie-info">
+        <div class="movie-name">
+          <h2>Hunter × Hunter: The Last Mission</h2>
+          <img src="./images/lastmission.jpg" alt="" class="img-movie">
+        </div>
+        <p>La película se estrenó en los cines japoneses el 27 de diciembre de 2013. La historia se centra en Netero, el presidente de la Asociación de Cazadores, y de como Gon y sus amigos descubren los oscuros secretos de su pasado.</p>
+      </div>
+    </section>
+  </main>
+  <footer></footer>
+  <script src="main.js"></script>
+</body>
+</html>
