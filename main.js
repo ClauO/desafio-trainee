@@ -1,6 +1,6 @@
 !(function(d){
-  var itemClassName = "carousel__photo";
-      items = d.getElementsByClassName(itemClassName),
+  var carouselItem = "carousel__photo";
+      items = d.getElementsByClassName(carouselItem),
       totalItems = items.length,
       slide = 0,
       moving = true; 
@@ -57,12 +57,12 @@
           oldNext = 1;
         }
 
-        items[oldPrevious].className = itemClassName;
-        items[oldNext].className = itemClassName;
+        items[oldPrevious].className = carouselItem;
+        items[oldNext].className = carouselItem;
 
-        items[newPrevious].className = itemClassName + " prev";
-        items[slide].className = itemClassName + " active";
-        items[newNext].className = itemClassName + " next";
+        items[newPrevious].className = carouselItem + " prev";
+        items[slide].className = carouselItem + " active";
+        items[newNext].className = carouselItem + " next";
       }
     }
   }
